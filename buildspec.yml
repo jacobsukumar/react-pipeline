@@ -6,8 +6,6 @@ phases:
       nodejs: 16
     commands:
       - echo Installing NodeJS...
-      #install yarn?
-      - echo Installing Node package manager
   pre_build:
     commands:
       #install dependencies
