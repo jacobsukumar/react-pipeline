@@ -2,15 +2,12 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 12
     commands:
       - echo Installing NodeJS...
-      - apt install  nodejs
-      - echo Node Installed version...
-      - node -v
-      
       #install yarn?
       - echo Installing Node package manager
-      - apt install npm
   pre_build:
     commands:
       #install dependencies
